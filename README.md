@@ -43,27 +43,32 @@ The cleaned dataset contains the following columns:
 
 | # | Column | Description | Data Type | Non-Null Count |
 |---|--------|-------------|-----------|----------------|
-| 0 | time | Time of earthquake occurrence | object | 59,571 |
-| 1 | latitude | Latitude coordinate | float64 | 59,571 |
-| 2 | longitude | Longitude coordinate | float64 | 59,571 |
-| 3 | depth | Depth of earthquake (km) | float64 | 59,571 |
-| 4 | mag | Magnitude | float64 | 59,571 |
-| 5 | magType | Magnitude scale type (e.g., mb, ml, mww) | object | 59,571 |
-| 6 | nst | Number of stations that reported P- and S-arrival times | float64 | 37,930 |
-| 7 | gap | Largest azimuthal gap between azimuthally adjacent stations (degrees) | float64 | 54,807 |
-| 8 | dmin | Horizontal distance from the epicenter to the nearest station (degrees) | float64 | 28,456 |
-| 9 | rms | Root mean square of travel time residuals | float64 | 59,533 |
-| 10 | net | Network that contributed the preferred origin | object | 59,571 |
-| 11 | id | Unique identifier for the event | object | 59,571 |
-| 12 | updated | Time when the event was most recently updated | object | 59,571 |
-| 13 | place | Textual description of the event's location | object | 59,571 |
-| 14 | type | Type of seismic event | object | 59,571 |
-| 15 | horizontalError | Horizontal uncertainty of the location (km) | float64 | 25,970 |
-| 16 | depthError | Uncertainty of the depth (km) | float64 | 40,782 |
-| 17 | magError | Uncertainty of the magnitude | float64 | 28,280 |
-| 18 | magNst | Number of stations used to calculate the magnitude | float64 | 55,125 |
-| 19 | status | Status of the event (reviewed, automatic) | object | 59,571 |
-| 20 | locationSource | Network that contributed the preferred location | object | 59,571 |
+| 0 | id | Unique identifier for the event | object | 59,570 |
+| 1 | event_date | Date of earthquake occurrence | object | 59,570 |
+| 2 | event_time | Time of earthquake occurrence | object | 59,570 |
+| 3 | latitude | Latitude coordinate | float64 | 59,570 |
+| 4 | longitude | Longitude coordinate | float64 | 59,570 |
+| 5 | depth | Depth of earthquake (km) | float64 | 59,570 |
+| 6 | magnitude | Magnitude | float64 | 59,570 |
+| 7 | magnitude_type | Magnitude scale type (e.g., mb, ml, mww) | object | 59,570 |
+| 8 | place | Textual description of the event's location | object | 59,570 |
+| 9 | nst | Number of stations that reported P- and S-arrival times | float64 | 59,570 |
+| 10 | gap | Largest azimuthal gap between azimuthally adjacent stations (degrees) | float64 | 59,570 |
+| 11 | dmin | Horizontal distance from the epicenter to the nearest station (degrees) | float64 | 59,570 |
+| 12 | rms | Root mean square of travel time residuals | float64 | 59,570 |
+| 13 | net | Network that contributed the preferred origin | object | 59,570 |
+| 14 | update_date | Date when the event was most recently updated | object | 59,570 |
+| 15 | update_time | Time when the event was most recently updated | object | 59,570 |
+| 16 | horizontal_error | Horizontal uncertainty of the location (km) | float64 | 59,570 |
+| 17 | depth_error | Uncertainty of the depth (km) | float64 | 59,570 |
+| 18 | magnitude_error | Uncertainty of the magnitude | float64 | 59,570 |
+| 19 | magnirude_nst | Number of stations used to calculate the magnitude | float64 | 59,570 |
+| 20 | location_source | Network that contributed the preferred location | object | 59,570 |
+| 21 | mangnitude_source | Network that contributed the preferred magnitude | object | 59,570 |
+
+
+
+
 
 ## Data Processing
 
