@@ -9,6 +9,8 @@
 
 This repository contains a comprehensive dataset of earthquakes around the Indonesian region from January 1, 2000, to July 3, 2025. The dataset focuses on earthquakes with a magnitude of 3.0 or higher.
 
+![Locations](Earthquake_Locations.png)
+
 ## Dataset Information
 
 - **Source**: United States Geological Survey (USGS)
