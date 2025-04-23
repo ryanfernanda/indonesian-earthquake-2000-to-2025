@@ -17,7 +17,7 @@ This repository contains a comprehensive dataset of earthquakes around the Indon
 - **Geographic Coverage**: Indonesian region and surrounding areas
   - Longitude: 92° to 144° East
   - Latitude: -14° to 9° North/South
-- **Time Period**: January 1, 2000 - July 3, 2025
+- **Time Period**: January 1, 2000 - March 7, 2025
 - **Minimum Magnitude**: 3.0
 - **Total Records**: 59,571 earthquakes
 
